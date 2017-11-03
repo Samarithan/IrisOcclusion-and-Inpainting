@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Functionalities">
+      <UniqueIdentifier>{bffa0fb9-f461-49e9-b0d3-107552789474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Features">
+      <UniqueIdentifier>{c04b6d48-b1d1-48ae-a99e-69e07efa932d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functionalities">
+      <UniqueIdentifier>{2f091d6b-bd3b-4688-84a6-e76f995ab596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features">
+      <UniqueIdentifier>{ff408ae2-aa62-4898-bb11-388617636c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TestPerformer">
+      <UniqueIdentifier>{b5d0206b-2662-4e56-a9e6-f55fd4264ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestPerformer">
+      <UniqueIdentifier>{a9d756d3-35e4-4019-b25a-db0813a87538}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureVectorsGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Operations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InPainter.h">
+      <Filter>Header Files\Functionalities</Filter>
+    </ClInclude>
+    <ClInclude Include="Calssifier.h">
+      <Filter>Header Files\Functionalities</Filter>
+    </ClInclude>
+    <ClInclude Include="Lbp16.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="LbpUniform.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Feature.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="TestController.h">
+      <Filter>Header Files\TestPerformer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureVectorsGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Operations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Calssifier.cpp">
+      <Filter>Source Files\Functionalities</Filter>
+    </ClCompile>
+    <ClCompile Include="InPainter.cpp">
+      <Filter>Source Files\Functionalities</Filter>
+    </ClCompile>
+    <ClCompile Include="Feature.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Lbp16.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="LbpUniform.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="TestController.cpp">
+      <Filter>Source Files\TestPerformer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
